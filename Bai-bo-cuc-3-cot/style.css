@@ -1,0 +1,18 @@
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.row > div {
+    min-height: 150px;
+}
+
+form {
+    max-width: 700px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
